@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Farm Dairy</title>
+
+<style>
+
+body{
+margin:0;
+font-family: Arial, sans-serif;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background:#2e7d32;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+background:url("https://images.unsplash.com/photo-1500595046743-cd271d694d30") center/cover;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+background:rgba(0,0,0,0.5);
+padding:20px;
+}
+
+/* Section */
+
+section{
+padding:50px;
+text-align:center;
+}
+
+/* Services */
+
+.services{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.service-box{
+background:#f4f4f4;
+padding:20px;
+width:250px;
+border-radius:10px;
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* Contact */
+
+.contact{
+background:#e8f5e9;
+}
+
+/* Footer */
+
+footer{
+background:#2e7d32;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Green Dairy Farm</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Fresh Milk From Healthy Cows 🐄</h1>
+</div>
+
+<section id="about">
+<h2>About Our Farm</h2>
+<p>
+Welcome to Green Dairy Farm. We provide fresh organic milk directly from our farm.
+Our cows are healthy, grass-fed, and raised in a natural environment.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="service-box">
+<h3>Fresh Milk</h3>
+<p>Pure and organic cow milk delivered daily.</p>
+</div>
+
+<div class="service-box">
+<h3>Cow Breeding</h3>
+<p>Healthy and high quality dairy cows.</p>
+</div>
+
+<div class="service-box">
+<h3>Organic Products</h3>
+<p>Ghee, butter, and dairy products.</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery">
+<h2>Farm Gallery</h2>
+
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1595433562696-6c1c5c6d0d8d">
+<img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30">
+<img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a">
+<img src="https://images.unsplash.com/photo-1609334761840-77d6c3c3e8ab">
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>📍 Location: Your Village / City</p>
+<p>📞 Phone: +91 9876543210</p>
+<p>📧 Email: dairyfarm@email.com</p>
+</section>
+
+<footer>
+<p>© 2026 Green Dairy Farm</p>
+</footer>
+
+</body>
+</html>
